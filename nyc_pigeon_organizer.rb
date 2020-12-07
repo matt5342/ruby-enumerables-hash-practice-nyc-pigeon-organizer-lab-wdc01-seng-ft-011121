@@ -26,6 +26,7 @@ def nyc_pigeon_organizer(data)
     
     charac.each do |name_array, names|
       p name_array
+      binding.pry
       names.each do |name|
         # p name
       end
