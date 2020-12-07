@@ -33,7 +33,7 @@ def nyc_pigeon_organizer(data)
         if !pigeons[name][category]
           pigeons[name][category] = []
         end
-      pigeons[name][category] << charac.to
+      pigeons[name][category] << charac.to_s
         binding.pry
       end
     end
