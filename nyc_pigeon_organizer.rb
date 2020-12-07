@@ -31,7 +31,9 @@ def nyc_pigeon_organizer(data)
           pigeons[name] = {}
         end
         if !pigeons[name][category]
-          pigeons[name][category] = 
+          pigeons[name][category] = []
+        end
+      
         binding.pry
       end
     end
