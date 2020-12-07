@@ -20,19 +20,19 @@
 
 def nyc_pigeon_organizer(data)
   
-  pigeons = {}
-  names = []
+  # pigeons = {}
+  # names = []
   
-  data.each do |key|
-    key.each do |value|
-      value.each do |name|
-      puts value[name]
-      names.include? name 
-      names << name
-    end
-    end
+  # data.each do |key|
+  #   key.each do |value|
+  #     value.each do |name|
+  #     puts value[name]
+  #     names.include? name 
+  #     names << name
+  #   end
+  #   end
     
-  end
+  # end
   #puts pigeons
   #puts names
 end
