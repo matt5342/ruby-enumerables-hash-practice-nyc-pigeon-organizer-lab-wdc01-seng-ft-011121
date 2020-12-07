@@ -27,6 +27,8 @@ def nyc_pigeon_organizer(data)
     charac_hash.each do |charac, name_array|
 
       name_array.each do |name|
+        if !pigeons[name]
+          pigeons = pigeons[name]
         binding.pry
       end
     end
