@@ -19,9 +19,9 @@ def nyc_pigeon_organizer(data)
 
       end
     end
-    
+    pigeons
   end
-  pigeons
+
   
   # pigeons = {}
   # names = []
