@@ -22,9 +22,9 @@ require 'pry'
 def nyc_pigeon_organizer(data)
   
   
-  data.each_with_object ({}) do |(category, charac), pigeons|
+  data.each_with_object ({}) do |(category, charac_hash), pigeons|
     
-    charac.each do |name_array, names|
+    charac_hash.each do |name_array, names|
       p name_array
       binding.pry
       names.each do |name|
