@@ -26,7 +26,7 @@ def nyc_pigeon_organizer(data)
     
     charac.each do |name_array|
       # p name_array
-      name_array.each do |name|
+      name_array.each do |both, name|
         p name
       end
     end
