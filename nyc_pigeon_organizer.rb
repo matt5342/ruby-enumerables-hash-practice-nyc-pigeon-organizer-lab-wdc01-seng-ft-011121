@@ -28,7 +28,7 @@ def nyc_pigeon_organizer(data)
 
       name_array.each do |name|
         if !pigeons[name]
-          pigeons = pigeons[name]
+          pigeons[name] = {}
         end
         binding.pry
       end
