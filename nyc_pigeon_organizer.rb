@@ -25,10 +25,9 @@ def nyc_pigeon_organizer(data)
   data.each_with_object ({}) do |(category, charac_hash), pigeons|
     
     charac_hash.each do |charac, name_array|
-      p name_array
-      binding.pry
+
       name_array.each do |name|
-        # p name
+        binding.pry
       end
     end
     
