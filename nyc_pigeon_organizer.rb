@@ -34,7 +34,7 @@ def nyc_pigeon_organizer(data)
           pigeons[name][category] = []
         end
       pigeons[name][category] << charac.to_s
-        binding.pry
+
       end
     end
     
